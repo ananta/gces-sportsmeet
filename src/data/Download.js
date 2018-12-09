@@ -1,0 +1,17 @@
+export default [
+  {
+    title: 'Download 1',
+    link: 'https://google.com',
+    description: 'Description of download 1'
+  },
+  {
+    title: 'Download 2',
+    link: 'https://youtube.com',
+    description: 'Description for download 2'
+  },
+  {
+    title: 'Download 3',
+    link: 'https://gmail.com',
+    description: 'Description for download 3'
+  }
+]
