@@ -140,7 +140,16 @@ label {
   color: #fff;
   margin: 32px 0 16px 0;
 }
-
+#about h2 {
+  border-left: 8px solid #fffa;
+  font-size: 24px;
+  padding-left: 16px;
+  color: #fff;
+  margin: 32px 0 16px 0;
+}
+#white {
+  color: #fff;
+}
 ul {
   color: #f7f7f7;
   margin-top: 0;

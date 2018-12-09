@@ -22,7 +22,7 @@ class Download extends React.Component {
                                                         item.description && <p>{item.description}</p>
                                                     }
                                                     <a target="_blank" className="btn btn-action"
-                                                       href={item.link}>Download</a>
+                                                       href={item.link}>View Tiesheet</a>
                                                 </div>
                                             </div>
                                         </div>
