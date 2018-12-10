@@ -3,36 +3,36 @@
     "name": "Basketball",
     "description": "No Data",
     "action": null,
-    "image": "https://github.com/anantabastola/gces-sportsmeet/blob/master/src/resources/basketball.png"
+    "image": "https://raw.githubusercontent.com/anantabastola/gces-sportsmeet/master/src/resources/basketball.png"
   },
   {
     "name": "Football",
     "description": "No Data",
     "action": null,
-    "image": "https://github.com/anantabastola/gces-sportsmeet/blob/master/src/resources/basketball.png"
+    "image": "https://raw.githubusercontent.com/anantabastola/gces-sportsmeet/master/src/resources/football.png"
   },
   {
     "name": "Cricket",
     "description": "No Data",
     "action": null,
-    "image": "https://github.com/anantabastola/gces-sportsmeet/blob/master/src/resources/basketball.png"
+    "image": "https://raw.githubusercontent.com/anantabastola/gces-sportsmeet/master/src/resources/cricket.png"
   },
   {
     "name": "Badminton",
     "description": "No Data",
     "action": null,
-    "image": "https://github.com/anantabastola/gces-sportsmeet/blob/master/src/resources/basketball.png"
+    "image": "https://raw.githubusercontent.com/anantabastola/gces-sportsmeet/master/src/resources/bad.png"
   },
   {
     "name": "Table Tennis",
     "description": "No Data",
     "action": null,
-    "image": "https://github.com/anantabastola/gces-sportsmeet/blob/master/src/resources/basketball.png"
+    "image": "https://raw.githubusercontent.com/anantabastola/gces-sportsmeet/master/src/resources/tt.png"
   },
   {
     "name": "Volleyball",
     "description": "No Data",
     "action": null,
-    "image": "https://github.com/anantabastola/gces-sportsmeet/blob/master/src/resources/basketball.png"
+    "image": "https://raw.githubusercontent.com/anantabastola/gces-sportsmeet/master/src/resources/volleyball.png"
   }
 ]
