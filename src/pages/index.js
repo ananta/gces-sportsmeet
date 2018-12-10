@@ -8,6 +8,10 @@ import Download from './Download';
 import Tiesheet from './Tiesheet';
 import Timetable from './Timetable';
 
+export const TiesheetURL = "https://raw.githubusercontent.com/anantabastola/gces-sportsmeet/master/src/data/Tiesheet.json";
+export const TimetableURL = "https://raw.githubusercontent.com/anantabastola/gces-sportsmeet/master/src/data/TimeTable.json";
+export const DownloadURL = "https://raw.githubusercontent.com/anantabastola/gces-sportsmeet/master/src/data/Download.json";
+export const EventsURL = "https://raw.githubusercontent.com/anantabastola/gces-sportsmeet/master/src/data/Events.json";
 class Home extends React.Component {
 
   render() {
@@ -21,7 +25,7 @@ class Home extends React.Component {
                 <Route path="/timetable" component={Timetable}/>
                 <Route exact path="/" component={Landing}/>
                 <footer>
-                    <p><em>Powered by: Codse</em></p>
+                    <p><em>Powered by: <a href="http://codse.com">Codse</a></em></p>
                 </footer>
             </section>
         </BrowserRouter>
