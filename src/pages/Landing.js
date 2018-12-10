@@ -3,9 +3,37 @@ import React from 'react';
 import './index.css';
 import Slide from '../components/Slide';
 import Events from '../data/Events';
-
+import { EventsURL } from './';
 class Landing extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      events: [],
+      isBusy: true,
+      error: null,
+    };
+  }
+
+  componentDidMount() {
+    this.fetchData();
+  }
+
+  async fetchData() {
+    const dataURL = EventsURL;
+    this.setState({ isBusy: true });
+    try {
+      const events = await fetch(dataURL);
+      const _events = await events.json()
+      this.setState({ events: _events });
+    } catch (exp) {
+      this.setState({ error: exp.message })
+    }
+    this.setState({ isBusy: false });
+  }
+
   render() {
+    const {isBusy, error, events} = this.state;
+    if(!events && error) return (<h1>Data Unavailable</h1>)
     return (
       <section className="wrapper">
         <div className="container main-background">
@@ -42,15 +70,22 @@ class Landing extends React.Component {
               </div>
             </div>
             <div className="col-md-6" style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+            {
+              isBusy && (
+                <div style={{ textAlign: 'center' }}>
+                  <i className="fa fa-circle-o-notch fa-spin" style={{ fontSize: '40px' }}></i>
+                </div>
+              )
+            }
               <div id="events" className="carousel slide" data-ride="carousel">
                 <div className="carousel-inner slider">
                   <ol className="carousel-indicators">
                     {
-                      Events.map((event, index) => <li key={index} data-target="#events" data-slide-to={index} className={index === 0 ? 'active' : ''}></li>)
+                      events.map((event, index) => <li key={index} data-target="#events" data-slide-to={index} className={index === 0 ? 'active' : ''}></li>)
                     }
                   </ol>
                   {
-                    Events.map((event, index) => <Slide key={'event+' + index} active={index === 0} event={event} />)
+                    events.map((event, index) => <Slide key={'event+' + index} active={index === 0} event={event} />)
                   }
                 </div>
               </div>
