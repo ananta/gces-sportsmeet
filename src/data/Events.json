@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Basketball",
+    "description": "No Data",
+    "action": null,
+    "image": "https://github.com/anantabastola/gces-sportsmeet/blob/master/src/resources/basketball.png"
+  },
+  {
+    "name": "Football",
+    "description": "No Data",
+    "action": null,
+    "image": "https://github.com/anantabastola/gces-sportsmeet/blob/master/src/resources/basketball.png"
+  },
+  {
+    "name": "Cricket",
+    "description": "No Data",
+    "action": null,
+    "image": "https://github.com/anantabastola/gces-sportsmeet/blob/master/src/resources/basketball.png"
+  },
+  {
+    "name": "Badminton",
+    "description": "No Data",
+    "action": null,
+    "image": "https://github.com/anantabastola/gces-sportsmeet/blob/master/src/resources/basketball.png"
+  },
+  {
+    "name": "Table Tennis",
+    "description": "No Data",
+    "action": null,
+    "image": "https://github.com/anantabastola/gces-sportsmeet/blob/master/src/resources/basketball.png"
+  },
+  {
+    "name": "Volleyball",
+    "description": "No Data",
+    "action": null,
+    "image": "https://github.com/anantabastola/gces-sportsmeet/blob/master/src/resources/basketball.png"
+  }
+]
