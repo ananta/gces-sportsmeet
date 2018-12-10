@@ -12,8 +12,8 @@ class Header extends React.Component {
           </Link>
           <Link to='/about'>About</Link>
           |
-          <Link to='/tiesheet'> Tiesheet</Link>
-          |
+          {/* <Link to='/tiesheet'> Tiesheet</Link> */}
+          {/* | */}
           <Link to='/timetable'> TimeTable</Link>
           |
           <Link to='/downloads'> Downloads</Link>
