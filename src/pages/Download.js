@@ -10,6 +10,9 @@ class Download extends React.Component {
                 <div id="about">
                     <div className="container">
                         <h1>Download</h1>
+                        <div style={{ textAlign: 'center'}}>
+                            <i className="fa fa-circle-o-notch fa-spin" style={{ fontSize: '40px'}}></i>
+                        </div>
                         <div className="row">
                             {
                                 DownloadItems.map(item => (
