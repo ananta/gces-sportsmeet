@@ -4,11 +4,11 @@
     "timetable": [
       {
         "time": "7: 00 AM - 7: 35 AM",
-        "description": "2nd Yr. Vs 3rd/4th Yr. [Basketball girls]"
+        "description": "2nd Yr. Vs 3rd/4th Yr. [Basketball Girls]"
       },
       {
         "time": "7: 40 AM - 8: 15 AM",
-        "description": "Bachelors Vs Masters & Staff [Friendship match]"
+        "description": "Bachelors Vs Masters & Staff [Basketball Friendly match]"
       },
       {
         "time": "FROM 7: 00 AM ",
@@ -23,8 +23,12 @@
         "description": "2A Vs 3A [Football Boys]"
       },
       {
-        "time": "8: 00 AM - 8: 30 PM",
+        "time": "8: 00 AM - 8: 30 AM",
         "description": "4B Vs 1B [Football Boys]"
+      },
+      {
+        "time": "9: 00 AM - 10: 00 AM",
+        "description": "Girls 4A Side"
       },
       {
         "time": "10: 00 AM - 11: 30 AM",
@@ -40,15 +44,15 @@
       },
       {
         "time": "01: 30 PM - 2: 00 PM",
-        "description": "3A VS 4B [Boys Football]"
+        "description": "3A VS 4B [Football Boys]"
       },
       {
         "time": "2:00 PM - 2: 30 PM",
-        "description": "1A VS 2B [Boys Football]"
+        "description": "1A VS 2B [Football Boys]"
       },
       {
         "time": "2: 30 PM - 3: 00 PM",
-        "description": "4A VS 3B [Boys Football]"
+        "description": "4A VS 3B [Football Boys]"
       }
     ]
   }
