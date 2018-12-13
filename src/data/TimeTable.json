@@ -1,58 +1,46 @@
 [
   {
-    "day": "DAY 4",
+    "day": "DAY 5",
     "timetable": [
       {
-        "time": "7: 00 AM - 7: 35 AM",
-        "description": "2nd Yr. Vs 3rd/4th Yr. [Basketball Girls]"
+        "time": "7: 00 AM - 8: 00 AM",
+        "description": "1st Yr. Vs 3rd Yr. [Cricket]"
       },
       {
-        "time": "7: 40 AM - 8: 15 AM",
-        "description": "Bachelors Vs Masters & Staff [Basketball Friendly match]"
+        "time": "7: 00 AM - 10: 00 AM",
+        "description": "Badminton [Remaining]"
       },
       {
-        "time": "FROM 7: 00 AM ",
-        "description": "CHESS, TABLETENNIS(Single Double), BADMINTON(Single Double) "
+        "time": "7: 00 AM - 10: 00 AM",
+        "description": "TABLE TENNIS [Remaining]"
       },
       {
-        "time": "7: 00 AM - 7: 30 AM",
-        "description": "1A Vs 2B [Football Boys]"
+        "time": "8: 00 AM - 9: 00 AM",
+        "description": "1st Yr. VS 4th Yr. [Football Boys]"
       },
       {
-        "time": "7: 30 AM - 8: 00 AM",
-        "description": "2A Vs 3A [Football Boys]"
+        "time": "10: 00 AM - 11: 00 AM",
+        "description": "3rd Yr. Vs 4th Yr. [Volleyball Boys]"
       },
       {
-        "time": "8: 00 AM - 8: 30 AM",
-        "description": "4B Vs 1B [Football Boys]"
+        "time": "11: 00 AM - 12: 00 PM",
+        "description": "2nd Yr. Vs 3rd/4th Yr. [Volleyball Girls]"
       },
       {
-        "time": "9: 00 AM - 10: 00 AM",
-        "description": "Girls 4A Side"
+        "time": "12: 00 PM - 12: 35 PM",
+        "description": "1st Yr. VS 3rd Yr. [Basketball Boys]"
       },
       {
-        "time": "10: 00 AM - 11: 30 AM",
-        "description": "1st Yr. Vs 4th Yr. [Cricket Boys]"
+        "time": "12: 35 PM - 1: 15 PM",
+        "description": "1st Yr. VS 2nd Yr. [Basketball Girls]"
       },
       {
-        "time": "2: 00 PM onwards",
-        "description": "Boys’ Football Semifinal Will Start."
+        "time": "1: 00 PM - 2: 00 PM",
+        "description": "Girls 4'A Side"
       },
       {
-        "time": "1: 30 PM - 2: 15 PM",
-        "description": "1st Yr. Vs 2nd Yr. [Volleyball Girls]"
-      },
-      {
-        "time": "01: 30 PM - 2: 00 PM",
-        "description": "3A VS 4B [Football Boys]"
-      },
-      {
-        "time": "2:00 PM - 2: 30 PM",
-        "description": "1A VS 2B [Football Boys]"
-      },
-      {
-        "time": "2: 30 PM - 3: 00 PM",
-        "description": "4A VS 3B [Football Boys]"
+        "time": "3: 00 PM onwards",
+        "description": "Prize distribution and closing program."
       }
     ]
   }
