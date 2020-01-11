@@ -2,7 +2,6 @@ import React from "react";
 
 import "./index.css";
 import Slide from "../components/Slide";
-import Events from "../data/Events";
 import { EventsURL } from "./";
 class Landing extends React.Component {
   constructor(props) {
@@ -53,7 +52,7 @@ class Landing extends React.Component {
                   </small>
                   <h1 className="title--gces">GCES</h1>
                   <h2 className="title--expo">SPORTS MEET</h2>
-                  <p className="title--year">2018</p>
+                  <p className="title--year">2020</p>
                   <blockquote className="blockquote">
                     <p className="mb-0">
                       "Sports is the greatest physical poetry"
@@ -66,7 +65,7 @@ class Landing extends React.Component {
                     <span style={{ width: "50px", display: "inline-block" }}>
                       Date
                     </span>
-                    : &nbsp; 10<sup>th</sup> TO 14<sup>th</sup> December
+                    : &nbsp; 12<sup>th</sup> TO 16<sup>th</sup> January
                   </p>
                   <p>
                     <span style={{ width: "50px", display: "inline-block" }}>

@@ -1,6 +1,5 @@
 import React from "react";
 
-import DownloadItems from "../data/Download";
 import { DownloadURL } from "./";
 class Download extends React.Component {
   constructor(props) {
